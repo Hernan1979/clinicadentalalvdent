@@ -1,0 +1,164 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background:white;
+    font-family: sans-serif;
+    width: 100%;
+  }
+  
+  header {
+    background: #4cc2c4;
+    width: 100%;
+    padding: 10px 0 0 0;
+  }
+ 
+  
+  nav  {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ccc;
+    margin:  20px 0 0 20px;
+  }
+
+  .logo {
+
+    margin: 20px auto 0 40px;
+}
+
+  
+  a {
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0;
+    text-decoration: none;
+    background-color:#ffffff;
+    color :black;
+  }
+  
+  a:hover, a:focus, a:active {
+    background-color:blue;
+    color: black;
+  }
+
+.texto {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size:large;
+    text-align: justify;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 50px 0 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+section {
+    width: 60%;
+    margin: auto;
+    background:white;
+    padding: 3%;
+    text-align: justify;
+}
+
+
+  
+.slider {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider > ul {
+    display: flex;
+    padding: 0;
+    width: 700%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+  }
+  
+  .slider > li {
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  .slider > img {
+    width: 100%;
+  }
+  
+  @keyframes cambio {
+    0% {
+      margin-left: 0;
+    }
+  
+    20% {
+      margin-left: 0;
+    }
+  
+    25% {
+      margin-left: -100%;
+    }
+  
+    45% {
+      margin-left: -100%;
+    }
+  
+    50% {
+      margin-left: -200%;
+    }
+  
+    70% {
+      margin-left: -200%;
+    }
+  
+    75% {
+      margin-left: -300%;
+    }
+  
+    100% {
+      margin-left: -300%;
+    }
+  }
+
+  .footer {
+    background: black;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .8em; 
+}
+
+.columna{
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+.container--flex {
+    display: flex;
+}
+
+.column_txt {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:large;
+}
+.copy {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: large;
+    margin: auto;
+    margin-top: 33px;
+}
